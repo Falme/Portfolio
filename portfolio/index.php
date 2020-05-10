@@ -64,6 +64,40 @@
 						</div>
 					</section>
 
+					<!--
+					<section class="feature right">
+						<a target="_blank" 
+							href="" 
+							class="image" 
+							style="background-image: url(images/Eckoblocks.png);">
+						</a>
+						<div class="content">
+							<h3>
+								I
+							</h3>
+							<p>
+								I
+							</p>
+						</div>
+					</section>
+					
+					<section class="feature left">
+						<a target="_blank" 
+							href="" 
+							class="image" 
+							style="background-image: url(images/oswaldo.jpg);">
+						</a>
+						<div class="content">
+							<h3>
+								G
+							</h3>
+							<p>
+								G
+							</p>
+						</div>
+					</section>
+					-->
+
 					<section class="feature right">
 						<a target="_blank" 
 							href="https://www.flux-games.com/eckoblocks" 
@@ -104,6 +138,7 @@
 							</p>
 						</div>
 					</section>
+
 					<section class="feature right">
 						<a target="_blank" href="#" class="image third noaccess"></a>
 						<div class="content">
