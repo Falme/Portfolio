@@ -53,8 +53,8 @@
 							</h3>
 							<p>
 								GUTS (Gory Ultimate Tournament Show) é um jogo 
-								de luta totalmente sangrento, violento, com 
-								muitos exageros e cheio de humor.
+								de luta da Flux Games totalmente sangrento, 
+								violento, com muitos exageros e cheio de humor.
 								<br />
 								Participação no Porting para 
 								<b>Xbox One</b> e <b>PS4.</b> 
