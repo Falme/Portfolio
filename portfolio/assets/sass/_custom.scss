@@ -1,0 +1,32 @@
+$img-src : "../../images/";
+
+.guaxa_logo
+{
+	width: 170px;
+	height: 112px;
+	background-image:url($img-src+"Logo_256px.png");
+	display:inline-block;
+	background-size:contain;
+}
+
+#footer
+{
+	background-color:black !important;
+}
+
+.feature.left .image, .feature.right .image
+{
+	background-size:cover;
+	background-position: center;
+	
+	&.first{
+		background-image:url($img-src+"PointsPixels-lg.png");
+	}
+	&.second{
+		background-image:url($img-src+"HMW.png");
+	}
+	&.third{
+		background-image:url($img-src+"Void-mini.png");
+	}
+}
+
