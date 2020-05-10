@@ -41,10 +41,16 @@
 
 				<div class="box alt container">
 
-					<section class="feature right">
-						<a target="_blank" href="https://www.flux-games.com/guts" class="image" style="background-image: url(images/guts.jpg);"></a>
+					<section class="feature left">
+						<a target="_blank" 
+							href="https://www.flux-games.com/guts" 
+							class="image" 
+							style="background-image: url(images/guts.jpg);">
+						</a>
 						<div class="content">
-							<h3>GUTS</h3>
+							<h3>
+								GUTS
+							</h3>
 							<p>
 								GUTS (Gory Ultimate Tournament Show) é um jogo 
 								de luta totalmente sangrento, violento, com 
@@ -57,12 +63,45 @@
 							</p>
 						</div>
 					</section>
-					<section class="feature left">
-						<a target="_blank" href="https://www.flux-games.com/eckoblocks" class="image" style="background-image: url(images/Eckoblocks.png);"></a>
+
+					<section class="feature right">
+						<a target="_blank" 
+							href="https://www.flux-games.com/eckoblocks" 
+							class="image" 
+							style="background-image: url(images/Eckoblocks.png);">
+						</a>
 						<div class="content">
-							<h3>Eckoblocks</h3>
-							<p>Jogo educacional para Android e iOS que ensina sobre o tema de reciclagem de uma forma lúdica e divertida.<br />
-								Fui responsavel pela maioria do desenvolvimento e sistema de mapa procedural</p>
+							<h3>
+								Eckoblocks
+							</h3>
+							<p>
+								Jogo educacional para Android e iOS que ensina 
+								sobre o tema de reciclagem de uma forma lúdica 
+								e divertida.
+								<br />
+								Fui responsavel pela maioria do desenvolvimento 
+								e sistema de mapa procedural
+							</p>
+						</div>
+					</section>
+					
+					<section class="feature left">
+						<a target="_blank" 
+							href="https://www.flux-games.com/oswaldo" 
+							class="image" 
+							style="background-image: url(images/oswaldo.jpg);">
+						</a>
+						<div class="content">
+							<h3>
+								Jogo do Bafo : Oswaldo
+							</h3>
+							<p>
+								Inspirado no episódio do Jogo do Bafo, <br/>
+								jogo mobile feito pela Flux Games junto a 
+								<br />Birdo Studios.
+								<br /><br />
+								Participação na análise de performance e testes.
+							</p>
 						</div>
 					</section>
 					<section class="feature right">
