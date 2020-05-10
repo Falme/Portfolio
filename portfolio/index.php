@@ -40,7 +40,23 @@
 				</header>
 
 				<div class="box alt container">
-					
+
+					<section class="feature right">
+						<a target="_blank" href="https://www.flux-games.com/guts" class="image" style="background-image: url(images/guts.jpg);"></a>
+						<div class="content">
+							<h3>GUTS</h3>
+							<p>
+								GUTS (Gory Ultimate Tournament Show) é um jogo 
+								de luta totalmente sangrento, violento, com 
+								muitos exageros e cheio de humor.
+								<br />
+								Participação no Porting para 
+								<b>Xbox One</b> e <b>PS4.</b> 
+								<br/><br />
+								Data de Lançamento : TBA
+							</p>
+						</div>
+					</section>
 					<section class="feature left">
 						<a target="_blank" href="https://www.flux-games.com/eckoblocks" class="image" style="background-image: url(images/Eckoblocks.png);"></a>
 						<div class="content">
