@@ -3,7 +3,7 @@
 		<span class="guaxa_logo"></span>
 		<h1>Falme Streamless</h1>
 	</a>
-	<h4>Desenvolvedor de jogos e web</h4>
+	<h4>Game & Web Developer</h4>
 	<!-- <p>Empresa Desenvolvedora de Websites e Jogos Digitais
 	<br />
 	Visando a Dominação Mundial, digo, Entretenimento Mundial.</p> -->

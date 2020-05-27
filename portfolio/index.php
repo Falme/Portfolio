@@ -11,6 +11,26 @@ if(isset($_GET['lan']))
 	}
 }
 
+$portTitles = [
+	[
+		"Desenvolvimento de jogos",
+		"Game Development"
+	],
+	[
+		"Desenvolvimento web",
+		"Web Development"
+	],
+	[
+		"Outros Projetos",
+		"Other Projects"
+	],
+	[
+		"Encontre-me",
+		"Find me"
+	],
+
+
+];
 
 $portGamesData = [
 	["https://www.flux-games.com/guts", "images/guts.jpg", "GUTS", 
@@ -26,14 +46,13 @@ $portGamesData = [
 			Data de Lançamento : TBA
 			",
 			"
-			GUTS (Gory Ultimate Tournament Show) é um jogo 
-			de luta da Flux Games totalmente sangrento, 
-			violento, com muitos exageros e cheio de humor.
+			GUTS (Gory Ultimate Tournament Show) is a gory, violent fighting
+			game filled with exaggerated humour.
 			<br />
-			Participação no Porting para 
-			<b>Xbox One</b> e <b>PS4.</b> 
+			I've participated in Porting for 
+			<b>Xbox One</b> and <b>PS4.</b> 
 			<br/><br />
-			Data de Lançamento : TBA
+			Release date : TBA
 			"
 		]
 	],
@@ -50,12 +69,10 @@ $portGamesData = [
 			e sistema de mapa procedural
 			",
 			"
-			Jogo educacional para Android e iOS que ensina 
-			sobre o tema de reciclagem de uma forma lúdica 
-			e divertida.
+			An educational Game for Android and iOS that teaches about
+			recycling in a playful way.
 			<br />
-			Fui responsavel pela maioria do desenvolvimento 
-			e sistema de mapa procedural
+			I was responsable for major part of development and procedural maps
 			"
 		]
 	],
@@ -69,11 +86,10 @@ $portGamesData = [
 			Participação na análise de performance e testes.
 			",
 			"
-			Inspirado no episódio do Jogo do Bafo, <br/>
-			jogo mobile feito pela Flux Games junto a 
-			<br />Birdo Studios.
+			Inspired in an episode of the cartoon \"Oswaldo\", it's a arcade
+			card game for mobile made by Flux Games and Birdo Studios.
 			<br /><br />
-			Participação na análise de performance e testes.
+			I've participated in analysis and performance tests.
 			"
 		]
 	],
@@ -85,9 +101,9 @@ $portGamesData = [
 			para HTML utilizando Construct 2.
 			",
 			"
-			Jogos e Atividades digitais para crianças aprenderem sobre 
-			diversos assuntos voltados a saúde e segurança. Desenvolvido 
-			para HTML utilizando Construct 2.
+			Games and digital activities for kids to learn diverse subjects
+			about health care and home security. Developed for web using 
+			Construct 2 as engine.
 			"
 		]
 	],
@@ -98,46 +114,20 @@ $portGamesData = [
 			Banco de dados e Analytics.
 			",
 			"
-			Jogo Premiado na BIG, fui responsável pela manutenção do servidor, 
-			Banco de dados e Analytics.
+			Award Winning game at BIG Festival, I was responsable by the 
+			maintenance of game server, database and Analytics.
 			"
 		]
 	],
-	["https://instagram.com/cleaver_game", "images/FrangoAndando.png", "Cleaver", 
-		[
-			"
-			Jogo desenvolvido para trabalho de conclusão de curso de um grupo da 
-			faculdade Impacta Tecnologia <br /> Conclusão em : Dezembro de 2018
-			",
-			"
-			Jogo desenvolvido para trabalho de conclusão de curso de um grupo da 
-			faculdade Impacta Tecnologia <br /> Conclusão em : Dezembro de 2018
-			"
-		]
-	],
-	["#", "images/ni.png", "NI", 
-		[
-			"
-			Jogo desenvolvido para trabalho de conclusão de curso da faculdade Impacta 
-			Tecnologia com o tema sustentabilidade <br /> 
-			Concluído em : Dezembro de 2017 
-			",
-			"
-			Jogo desenvolvido para trabalho de conclusão de curso da faculdade Impacta 
-			Tecnologia com o tema sustentabilidade <br /> 
-			Concluído em : Dezembro de 2017 
-			"
-		]
-	],
-	["./projects.php", "images/VariousGames.png", "Outros Jogos", 
+	["./projects.php", "images/VariousGames.png", "Other Projects", 
 		[
 			"
 			Clique na imagem para ter acesso a outros jogos desenvolvidos, 
 			Game Jams, protótipos e participações
 			",
 			"
-			Clique na imagem para ter acesso a outros jogos desenvolvidos, 
-			Game Jams, protótipos e participações
+			Click on the image to have access to other developed games,
+			Game Jams, prototypes and participations.
 			"
 		]
 	],
@@ -151,8 +141,8 @@ $portWebsitesData = [
 			Para o desenvolvimento foi utilizado HTML5, CSS3, SASS e JQuery.
 			",
 			"
-			Website Desenvolvido para empresa Murano Design. 
-			Para o desenvolvimento foi utilizado HTML5, CSS3, SASS e JQuery.
+			Website developed for Murano Design company. 
+			Used HTML5, CSS3, SASS and JQuery for development.
 			"
 		]
 	],
@@ -164,9 +154,9 @@ $portWebsitesData = [
 			Feito em HTML5.
 			",
 			"
-			Participação com a Murano Design no desenvolvimento de um módulo de 
-			aulas de ensino á distância para a plataforma Moodle. <br />
-			Feito em HTML5.
+			Participation with Murano Design on a module for Online Classes
+			in Moodle Platform.<br />
+			Made in HTML5.
 			"
 		]
 	],
@@ -177,8 +167,8 @@ $portWebsitesData = [
 			Safira Energia. <br />Feito em HTML5, Jade/Pug, Compass e coffeescript.
 			",
 			"
-			Participação com a Tinpix no desenvolvimento do Website do Grupo 
-			Safira Energia. <br />Feito em HTML5, Jade/Pug, Compass e coffeescript.
+			Participation with Tinpix at the Safira Energia company website 
+			development <br />Made in HTML5, Jade/Pug, Compass and coffeescript.
 			"
 		]
 	],
@@ -189,8 +179,8 @@ $portWebsitesData = [
 			<br />Feito em PHP e Wordpress.
 			",
 			"
-			Participação com a Giro360 no desenvolvimento do Website da Ekko Group. 
-			<br />Feito em PHP e Wordpress.
+			Participation with Giro360 on the Ekko Group company website development.
+			<br />Made in PHP and Wordpress.
 			"
 		]
 	],
@@ -201,8 +191,8 @@ $portWebsitesData = [
 			Feito em PHP.
 			",
 			"
-			Total desenvolvimento do website da empresa Agência Giro 360. <br />
-			Feito em PHP.
+			Total development of Giro 360 company website. <br />
+			Made in PHP.
 			"
 		]
 	],
@@ -213,8 +203,8 @@ $portWebsitesData = [
 			Feito em HTML5, Jade/Pug, Compass e coffeescript.
 			",
 			"
-			Participação no desenvolvimento do Website de O Amarelinho. <br />
-			Feito em HTML5, Jade/Pug, Compass e coffeescript.
+			Participation in the O Amarelinho website development.<br />
+			Made in HTML5, Jade/Pug, Compass and coffeescript.
 			"
 		]
 	],
@@ -226,9 +216,8 @@ $portWebsitesData = [
 			como solução.
 			",
 			"
-			Conversor de valores Pontos para Pixels e vice versa. Pela dificuldade 
-			de encontrar essa conversão e como converter, esse site foi desenvolvido 
-			como solução.
+			Points to Pixels converter, By the difficulty to find this conversion,
+			this website was developed as solution.
 			"
 		]
 	],
@@ -240,9 +229,8 @@ $portWebsitesData = [
 			plataforma Moodle.
 			",
 			"
-			Script que escalona qualquer pagina web, foi utilizado para aplicações 
-			de ensino, atividades e paginas web. Também aceito nas aulas da 
-			plataforma Moodle.
+			Script the scalates every webpage, was used for learning applications,
+			web activities and websites. Also accepted in Moodle Platform classes.
 			"
 		]
 	],
@@ -255,7 +243,9 @@ $portProjectsData = [
 			Podcast de Entretenimento voltado para divulgação musical de bandas alternativas, nacionais ou recomendadas. <br /> Parceiros : Clayton \"Hykez\" Biscalchini, Luis \"Ingrion\" Gustavo
 			",
 			"
-			Podcast de Entretenimento voltado para divulgação musical de bandas alternativas, nacionais ou recomendadas. <br /> Parceiros : Clayton \"Hykez\" Biscalchini, Luis \"Ingrion\" Gustavo
+			An Entertainment Podcast to promote alternative, national and recommended 
+			bands and music. <br /> Partners : 
+			Clayton \"Hykez\" Biscalchini, Luis \"Ingrion\" Gustavo
 			"
 		]
 	],
@@ -265,7 +255,8 @@ $portProjectsData = [
 			Blog de Game Design de um ponto de vista acadêmico e Indie <br /> Parceiros : Diego Garcia
 			",
 			"
-			Blog de Game Design de um ponto de vista acadêmico e Indie <br /> Parceiros : Diego Garcia
+			Game Design blog from an acadêmic and indie point of view. <br /> 
+			Partners : Diego Garcia
 			"
 		]
 	],
@@ -275,7 +266,8 @@ $portProjectsData = [
 			Co-Fundador da desenvolvedora de jogos digitais Guaxinim Games, focado no Entretenimento <br /> Parceiros : Diego Lopes
 			",
 			"
-			Co-Fundador da desenvolvedora de jogos digitais Guaxinim Games, focado no Entretenimento <br /> Parceiros : Diego Lopes
+			Co-Founder of the Digital Game Company \"Guaxinim Games\", 
+			focused on Entertainment. <br /> Partners : Diego Lopes
 			"
 		]
 	],
@@ -306,7 +298,7 @@ $portProjectsData = [
 
 
 				<header class="major container 75%">
-					<h2>Desenvolvimento de jogos</h2>
+					<h2> <?php echo $portTitles[0][$language] ?> </h2>
 				</header>
 
 				<div class="box alt container">
@@ -323,7 +315,7 @@ $portProjectsData = [
 								</a>
 								<div class="content">
 									<h3>'.$portGamesData[$i][2].'</h3>
-									<p>'.$portGamesData[$i][3][0].'</p>
+									<p>'.$portGamesData[$i][3][$language].'</p>
 								</div>
 							</section>
 							';
@@ -336,7 +328,7 @@ $portProjectsData = [
 
 
 				<header class="major container 75%">
-					<h2>Desenvolvimento web</h2>
+					<h2><?php echo $portTitles[1][$language] ?></h2>
 				</header>
 
 				<div class="box alt container">
@@ -354,7 +346,7 @@ $portProjectsData = [
 								</a>
 								<div class="content">
 									<h3>'.$portWebsitesData[$i][2].'</h3>
-									<p>'.$portWebsitesData[$i][3][0].'</p>
+									<p>'.$portWebsitesData[$i][3][$language].'</p>
 								</div>
 							</section>
 							';
@@ -367,7 +359,7 @@ $portProjectsData = [
 
 
 				<header class="major container 75%">
-					<h2>Outros Projetos</h2>
+					<h2><?php echo $portTitles[2][$language] ?></h2>
 				</header>
 
 				<div class="box alt container">
@@ -385,7 +377,7 @@ $portProjectsData = [
 								</a>
 								<div class="content">
 									<h3>'.$portProjectsData[$i][2].'</h3>
-									<p>'.$portProjectsData[$i][3][0].'</p>
+									<p>'.$portProjectsData[$i][3][$language].'</p>
 								</div>
 							</section>
 							';
@@ -403,7 +395,7 @@ $portProjectsData = [
 				<div class="container 75%">
 
 					<header class="major last">
-						<h2>Encontre-me</h2>
+						<h2><?php echo $portTitles[3][$language] ?></h2>
 					</header>
 					<p></p>
 					<ul class="icons">
