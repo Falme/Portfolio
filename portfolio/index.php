@@ -296,7 +296,6 @@ $portProjectsData = [
 		<!-- Main -->
 			<div id="main">
 
-
 				<header class="major container 75%">
 					<h2> <?php echo $portTitles[0][$language] ?> </h2>
 				</header>

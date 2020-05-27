@@ -4,7 +4,13 @@
 		<h1>Falme Streamless</h1>
 	</a>
 	<h4>Game & Web Developer</h4>
-	<!-- <p>Empresa Desenvolvedora de Websites e Jogos Digitais
-	<br />
-	Visando a Dominação Mundial, digo, Entretenimento Mundial.</p> -->
+
+</div>
+<div id="languageContainer">
+	<a href="http://<?php echo $_SERVER['HTTP_HOST'].$_SERVER['PHP_SELF'] ?>?lan=en">
+		<div class="languageItem"> EN </div>
+	</a>
+	<a href="http://<?php echo $_SERVER['HTTP_HOST'].$_SERVER['PHP_SELF'] ?>?lan=pt">
+		<div class="languageItem whiteItem"> PT </div>
+	</a>
 </div>

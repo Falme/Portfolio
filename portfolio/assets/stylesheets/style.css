@@ -3532,6 +3532,34 @@ input[type="button"].small,
 }
 
 
+#languageContainer
+{
+  width:50px;
+  height:100px;
+  position: fixed;
+  background-color: black;
+  right: 0;
+  top:50vh;
+  z-index: 10000;
+}
 
+.languageItem
+{
+  width:50px;
+  height:50px;
+  padding-top:6px;
+  text-align: center;
+  font-weight: bold;
+  background-color: black;
+  color: white;
+  border: solid white;
+}
+
+.whiteItem
+{
+  background-color: white;
+  color: black;
+  border: solid black;
+}
 
 .noaccess{pointer-events:none;}
