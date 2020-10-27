@@ -93,6 +93,54 @@ $portGamesData = [
 			"
 		]
 	],
+	["https://play.google.com/store/apps/details?id=com.institutoakatu.germkombat", "images/germkombat.png", "Germ Kombat", 
+		[
+			"
+			Combata germes e bactérias, nesse divertido jogo inspirado em Zombies Ate My Neighbours.
+			<br /> Feito pela Flux Games para Instituto Akatu. 
+			<br /><br />
+			Participação na manutenção e atualização de aplicativo na loja.
+			",
+			"
+			Fight germs and bacteria in this fun game inspired by Zombies Ate My Neighbors.
+			<br /> Made by Flux Games To Instituto Akatu. 
+			<br /><br />
+			I've participated in maintainment and app update in the store.
+			"
+		]
+	],
+	["https://play.google.com/store/apps/details?id=com.akatu.rangomania", "images/rangomania.png", "RangoMania", 
+		[
+			"
+			Jogo mobile feito para ensinar sobre melhor alimentação de forma divertida.
+			<br /> Feito pela Flux Games para Instituto Akatu. 
+			<br /><br />
+			Participação na manutenção e atualização de aplicativo na loja.
+			",
+			"
+			Mobile game made to teach the players about healthy nutrition in a fun way.
+			<br /> Made by Flux Games To Instituto Akatu. 
+			<br /><br />
+			I've participated in maintainment and app update in the store.
+			"
+		]
+	],
+	["https://play.google.com/store/apps/details?id=com.fluxgamestudio.superelektrus&hl=pt_BR", "images/superelektrus.png", "Super Elektrus", 
+		[
+			"
+			Jogo mobile feito para ensinar sobre a economia de energia de forma divertida.
+			<br /> Feito pela Flux Games para Instituto Akatu. 
+			<br /><br />
+			Participação na manutenção e atualização de aplicativo na loja.
+			",
+			"
+			Mobile game made to teach the players about energy saving in a fun way.
+			<br /> Made by Flux Games To Instituto Akatu. 
+			<br /><br />
+			I've participated in maintainment and app update in the store.
+			"
+		]
+	],
 	["#", "images/criancas.png", "Hospital do Câncer de Barretos : Crianças Como Parceiras", 
 		[
 			"
