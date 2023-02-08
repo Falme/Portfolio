@@ -509,9 +509,8 @@ $portProjectsData = [
 					<p></p>
 					<ul class="icons">
 						<li><a href="https://twitter.com/falmeStreamless" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
-						<li><a href="https://www.facebook.com/falme.streamless" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
 						<li><a href="https://github.com/falme" class="icon fa-github"><span class="label">Github</span></a></li>
-						<li><a href="https://br.linkedin.com/in/falme" class="icon fa-linkedin"><span class="label">Github</span></a></li>
+						<li><a href="https://br.linkedin.com/in/falme" class="icon fa-linkedin"><span class="label">Linkedin</span></a></li>
 					</ul>
 
 					<ul class="copyright">
