@@ -549,7 +549,7 @@ $portProjectsData = [
 
 				</div>
 			</div>
-
+            <img src="https://librecounter.org/counter.svg" referrerPolicy="unsafe-url" width="0" />
 		<!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/skel.min.js"></script>
