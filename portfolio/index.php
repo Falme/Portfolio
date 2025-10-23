@@ -28,7 +28,10 @@ $portTitles = [
 		"Encontre-me",
 		"Find me"
 	],
-
+	[
+		"Para ler meus artigos e estudos, visite meu <a href='https://blog.falme.com.br' target='_blank'>blog</a>",
+		"To read my articles and studies, visit my <a href='https://blog.falme.com.br' target='_blank'>blog</a>"
+	],
 
 ];
 
@@ -416,6 +419,10 @@ $portProjectsData = [
 
 		<!-- Main -->
 			<div id="main">
+
+				<header class="major container 75%">
+					<h2> <?php echo $portTitles[4][$language] ?> </h2>
+				</header>
 
 				<header class="major container 75%">
 					<h2> <?php echo $portTitles[0][$language] ?> </h2>
