@@ -36,6 +36,23 @@ $portTitles = [
 ];
 
 $portGamesData = [
+	["https://store.steampowered.com/app/3815370/Talaka/", "images/talaka.jpg", "Talaka", 
+		[
+			"
+			<b>Talaka</b> é um jogo de plataforma roguelike baseado no folclore brasileiro e em influências da religião afro-brasileira. O jogo ganhou um prêmio no GDC Pitch. 
+			<br /><br/>
+			Participei da fase inicial de prototipagem do projeto, criando partes do <i>Sistema de Jogabilidade</i> e do <i>Design de Níveis</i>. 
+			<br/>
+			",
+			"
+			<b>Talaka</b>. is a roguelike platform action game based on brazilian folklore and 
+			afro-brazilian religion influences. The game won an award at GDC Pitch. 
+			<br /><br/>
+			I've Participated in the Early prototyping of the project, making parts of <i>Gameplay System</i> and <i>Level Design</i>. 
+			<br/>
+			"
+		]
+	],
 	["https://store.steampowered.com/app/1702320/PIGGY_Hunt/", "images/piggy_hunt.jpg", "PIGGY: HUNT", 
 		[
 			"
@@ -53,6 +70,24 @@ $portGamesData = [
 			<br /><br/>
 			I've Participated in <i>Gameplay System</i>, <i>Beamable Service</i>. and <i>Steamworks.NET</i> Services
 			for the <b>Steam</b> Release. 
+			<br/>
+			"
+		]
+	],
+	["#", "images/n-logo.png", "Unannounced Hentai Game", 
+		[
+			"
+			<b>Jogo não anunciado</b>. É um jogo idle game e puzzle não anunciado e sem data de lançamento prevista.
+			<br /><br/>
+			Participei do <i>Sistema de Gameplay</i>, <i>Conexões de API</i> e outros serviços para seu lançamento. 
+			<br/>
+			",
+			"
+			<b>Unannounced Game</b>. Is an Idle and puzzle game Unannounced and
+			with no date to be released.
+			<br /><br/>
+			I've Participated in <i>Gameplay System</i>, <i>API Connections</i>, and other Services
+			for Release. 
 			<br/>
 			"
 		]
