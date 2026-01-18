@@ -53,6 +53,22 @@ $portGamesData = [
 			"
 		]
 	],
+	["https://github.com/Falme/credits-template-unity", "images/credits_template_logo.png", "Credits Template", 
+		[
+			"
+			<b>Credits Template</b> é um modelo de interface de créditos para o seu jogo (em Unity 6 ou Godot 4.x) com as informações sendo carregadas de um arquivo JSON.
+			<br /><br/>
+			Atualmente está em desenvolvimento e eu criei quase tudo no projeto, principalmente a <i>Programação</i>. 
+			<br/>
+			",
+			"
+			<b>Credits Template</b> is a template of a credits interface for your game (in Unity 6 or Godot 4.x) with the information being loaded from a JSON.
+			<br /><br/>
+			It's currently in development and I created almost everything from the project, mostly <i>Programming</i>. 
+			<br/>
+			"
+		]
+	],
 	["https://store.steampowered.com/app/1702320/PIGGY_Hunt/", "images/piggy_hunt.jpg", "PIGGY: HUNT", 
 		[
 			"
