@@ -69,6 +69,22 @@ $portGamesData = [
 			"
 		]
 	],
+	["https://play.google.com/store/apps/details?id=com.Ficciona.PlaypolisBrincarDeHistoria&hl=en-US", "images/playpolis.jpg", "Playpolis: Brincar de História", 
+		[
+			"
+			<b>Playpolis: Brincar de História</b> é um jogo educativo Point-and-Click desenvolvido para promover a animação 'Playpolis'.
+			<br /><br/>
+			Fui responsável pela programação do projeto, que foi desenvolvido usando <i>Unity3D</i>, <i>Yarn Spinner</i> e <i>FMOD</i>. 
+			<br/>
+			",
+			"
+			<b>Playpolis: Brincar de História</b> is a educational Point-and-Click game designed to promote the animation 'Playpolis'.
+			<br /><br/>
+			I was responsible for the programming of the project, which was developed using <i>Unity3D</i>, <i>Yarn Spinner</i> and <i>FMOD</i>. 
+			<br/>
+			"
+		]
+	],
 	["https://store.steampowered.com/app/1702320/PIGGY_Hunt/", "images/piggy_hunt.jpg", "PIGGY: HUNT", 
 		[
 			"
